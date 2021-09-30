@@ -21,6 +21,20 @@ app.get('/index.css', (req, res) => {
         res.send(data);
     })
 })
+app.get('/Ice-logo.jpg', (req, res) => {
+    fs.readFile('Ice-logo.jpg', (err, data) => {
+        res.setHeader('Content-Type', 'image/jpg');
+       
+        res.send(data);
+    })
+})
+app.get('/selfie.jpg', (req, res) => {
+    fs.readFile('selfie.jpg', (err, data) => {
+        res.setHeader('Content-Type', 'image/jpg');
+       
+        res.send(data);
+    })
+})
 
 
 app.listen(PORT,() => {
