@@ -35,6 +35,21 @@ app.get('/selfie.jpg', (req, res) => {
         res.send(data);
     })
 })
+app.get('/vigor1.jpg', (req, res) => {
+    fs.readFile('vigor1.jpg', (err, data) => {
+        res.setHeader('Content-Type', 'image/jpg');
+       
+        res.send(data);
+    })
+})
+app.get('/lawe.jpg', (req, res) => {
+    fs.readFile('lawe.jpg', (err, data) => {
+        res.setHeader('Content-Type', 'image/jpg');
+       
+        res.send(data);
+    })
+})
+
 
 
 app.listen(PORT,() => {
