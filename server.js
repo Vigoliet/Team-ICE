@@ -13,7 +13,13 @@ app.get('/', (req, res) => {
         res.send(data);
    
     })
-   
+})
+app.get('/index.css', (req, res) => {
+    fs.readFile('index.css', (err, data) => {
+        res.setHeader('Content-Type', 'text/css');
+        res.setHeader('contet-Length', data.length);
+        res.send(data);
+    })
 })
 
 
