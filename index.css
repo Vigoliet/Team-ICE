@@ -11,9 +11,8 @@ body {
 }
 
 .logo {
-    background-image: url("Ice-logo.jpg");
+    background-image: url("Image/Ice-logo.jpg");
     width: 50%;
-    
     padding: 5%;
     display: block;
     margin-left: auto;
