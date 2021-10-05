@@ -3,7 +3,7 @@ body {
     margin:0;
 }
 
-.logotext {
+#logotext {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -21,21 +21,39 @@ body {
     text-shadow: 1px 1px #66ffff ;
 }
 
-.about {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 40px;
-    background: linear-gradient(to top, #0d5cd3 0%, #ffffff 70%);
-}
-
-.AboutInfo {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+ul {
+    
+    position: fixed;
+    top:0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+  }
+  
+  li {
+    float: left;
     font-size: 20px;
-    padding: 4%;
-}
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+
 
 
 
@@ -96,4 +114,26 @@ html {
 
 .button:hover {
     background-color: #555;
+}
+#about {
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.AboutInfo {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+footer{
+    padding: 4%;
+    font-size: 40px;
+    background: linear-gradient(to top, #0d5cd3 0%, #ffffff 70%);
 }

@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 8042;
 app.use(express.static('public'));
 
 
+
 app.get('/', (req, res) => {
     fs.readFile('index.html', (err, data) => {
         res.setHeader('Content-Type', 'text/html');
