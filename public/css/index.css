@@ -36,7 +36,7 @@ ul {
   
   li {
     float: left;
-    font-size: 20px;
+    font-size: 30px;
     
   }
   
@@ -120,11 +120,29 @@ html {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 40px;
+    width: 50%;
+    font-size: 50px;
+    border-style: solid;
     
 }
 
 .AboutInfo {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px
+    
+}
+
+#Contact{
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50px;
+}
+.contactinfo{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
